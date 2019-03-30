@@ -8,6 +8,10 @@ namespace bts_coachtasks
 {
     class Program
     {
+        /*
+         @ function static void Main(string[] args)
+         * this is the main function the handles the program's outputs
+         */
         static void Main(string[] args)
         {
             Console.Write("1. output 'Hello World!'");
@@ -35,25 +39,23 @@ namespace bts_coachtasks
             Console.ReadLine();
         }
 
-        //2. output y=x^3
+        //2. output y = x ^ 3
         public static void OY(int x)
         {
             double y = Math.Pow(x,3);
-            Console.Write("x^3 = " + y);
+            Console.Write("x ^ 3 = " + y);
             Console.ReadLine();
         }
 
         //3. output Nth term increment by 1
         public static void nINC(int n)
         {
-            int i = 0;
             int term = 1;
-            while (n > 0)
+            for (int i = 0; i < n;)
             {
                 term = term + i;
                 Console.Write(term + ",");
                 i++;
-                n--;
             }
             Console.ReadLine();
         }
@@ -67,8 +69,7 @@ namespace bts_coachtasks
         //5. fizzbuzz sequence
         public static void fizzBuzz(int n)
         {
-            int i = 1;
-            while (n > 0)
+            for (int i = 1; i < n;)
             {
                 if(i % 3 == 0 || i % 5 == 0)
                 {
@@ -90,7 +91,6 @@ namespace bts_coachtasks
                     Console.Write(i + ",");
                 }
                 i++;
-                n--;
             }
             Console.ReadLine();
         }
@@ -98,18 +98,19 @@ namespace bts_coachtasks
         //6. output the fibanacci sequence
         public static void fibSeq(int n)
         {
-            n = n - 1;
-            int a = 0;
+            const int a = 0;
             int b = 1;
-            int c = a + b;
-            Console.Write(c + ",");
-            while (n > 0)
+            int c = 1;
+            int d;
+            Console.Write(a + ", " + b + ", " + c + ", ");
+            n = n - 3;
+            for (int i = 0; i < n;)
             {
-                c = a + b;
-                Console.Write(c + ",");
-                a = b;
+                d = b + c;
+                Console.Write(d + ", ");
                 b = c;
-                n--;
+                c = d;
+                i++;
             }
             Console.ReadLine();
         }

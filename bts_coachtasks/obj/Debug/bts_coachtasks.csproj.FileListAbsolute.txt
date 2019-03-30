@@ -4,3 +4,9 @@ C:\Users\Alexa\OneDrive\my personal stuff\Jobs\bts_coachtasks\bts_coachtasks\bin
 C:\Users\Alexa\OneDrive\my personal stuff\Jobs\bts_coachtasks\bts_coachtasks\obj\Debug\bts_coachtasks.csprojResolveAssemblyReference.cache
 C:\Users\Alexa\OneDrive\my personal stuff\Jobs\bts_coachtasks\bts_coachtasks\obj\Debug\bts_coachtasks.exe
 C:\Users\Alexa\OneDrive\my personal stuff\Jobs\bts_coachtasks\bts_coachtasks\obj\Debug\bts_coachtasks.pdb
+C:\Users\Alexa\OneDrive\GitHub\Coding_task\bts_coachtasks\bin\Debug\bts_coachtasks.exe.config
+C:\Users\Alexa\OneDrive\GitHub\Coding_task\bts_coachtasks\obj\Debug\bts_coachtasks.exe
+C:\Users\Alexa\OneDrive\GitHub\Coding_task\bts_coachtasks\obj\Debug\bts_coachtasks.pdb
+C:\Users\Alexa\OneDrive\GitHub\Coding_task\bts_coachtasks\bin\Debug\bts_coachtasks.exe
+C:\Users\Alexa\OneDrive\GitHub\Coding_task\bts_coachtasks\bin\Debug\bts_coachtasks.pdb
+C:\Users\Alexa\OneDrive\GitHub\Coding_task\bts_coachtasks\obj\Debug\bts_coachtasks.csprojResolveAssemblyReference.cache

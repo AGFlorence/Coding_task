@@ -77,11 +77,11 @@ namespace bts_coachtasks
                     {
                         Console.Write("fizzbuzz,");
                     }
-                    if (i % 3 == 0 && i % 5 > 0)
+                    else if (i % 3 == 0 && i % 5 > 0)
                     {
                         Console.Write("buzz,");
                     }
-                    if (i % 5 == 0 && i % 3 > 0)
+                    else if (i % 5 == 0 && i % 3 > 0)
                     {
                         Console.Write("fizz,");
                     }                    
